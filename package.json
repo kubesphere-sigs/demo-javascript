@@ -8,7 +8,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "build": "echo 'build success'"
+    "build": "mkdir -p dist && cp ./*.js dist/ && cp -r node_modules dist/"
   },
   "dependencies": {
     "body-parser": "^1.18.3",
